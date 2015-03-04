@@ -1,0 +1,1 @@
+# Assembly FreeCAD file
