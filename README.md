@@ -14,3 +14,5 @@
 - http://www.thingiverse.com/thing:238329
 - https://drive.google.com/folderview?id=0B2pISn8GDk1UYllMSlp1NE5wR1E&usp=sharing
 
+### Disclaimer
+  Project not finished neither printed.
