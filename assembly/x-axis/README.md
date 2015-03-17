@@ -4,10 +4,15 @@
     4x LM10UU linear bearings
     7x M8 nuts
     2x 608zz bearings
-    9x M3 nut
-    5x M3 screws, 10mm
-    2x M3 screws, 30mm
-    2x M3 screws, 35mm
     1x Stepper Motor
     1x Endstop
     ?x Endstop wood screws (2 to 5)
+   26x M3 nut
+   20x M3 washer
+    2x M3 screw, 30mm
+    2x M3 screw, 23mm
+    4x M3 screw, 35mm
+    1x M3 screw, 20mm
+    2x zip tie, at least 150mm
+    4x M3 threaded rod, 150mm
+    4x M3 threaded rod, 135mm

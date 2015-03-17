@@ -7,18 +7,17 @@
     19x M8 nut
     12x M8 washer
      2x 608zz bearing
-    21x M4 nut
-    16x M4 washer
-     4x M4 screw, 35mm
-     1x M4 screw, 30mm
-     4x M4 threaded rod, 150mm
-     4x M4 threaded rod, 135mm
-     5x M3 screw, 10mm
-     5x M3 nut
-     4x M3 screw, 30mm
-     4x M4 wood screw, 50mm
-     4x M4 wood screw, 20mm
      1x Stepper motor
      1x Endstop
      ?x Endstop wood screws (2 to 5)
-
+     5x M4 nut
+     5x M4 washer
+     4x M4 screw, 32mm
+     1x M4 screw, 24mm
+     5x M3 nut
+     8x M3 washer
+     4x M3 screw, 30mm
+     4x M4 wood screw, 25mm
+     4x M4 wood screw, 20mm
+     4x M4 wood screw, 50mm
+     5x M3 screw, 10mm
