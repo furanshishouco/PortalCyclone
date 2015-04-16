@@ -2,9 +2,9 @@ ISO-10303-21;
 HEADER;
 FILE_DESCRIPTION(('FreeCAD Model'),'2;1');
 FILE_NAME(
-'C:/Users/Francisco/Documents/Github/PortalCyclone/assembly/x-axis/x_
-linear_bearing_spacer.step','2015-03-11T09:07:18',('Author'),(''),
-  'Open CASCADE STEP processor 6.7','FreeCAD','Unknown');
+'C:/Users/fran/Documents/GitHub/PortalCyclone/assembly/x-axis/x_linear_
+bearing_spacer.step','2015-04-16T09:14:26',('Author'),(''),
+  'Open CASCADE STEP processor 6.8','FreeCAD','Unknown');
 FILE_SCHEMA(('AUTOMOTIVE_DESIGN_CC2 { 1 2 10303 214 -1 1 5 4 }'));
 ENDSEC;
 DATA;
@@ -16,8 +16,8 @@ DATA;
 #4 = PRODUCT_DEFINITION_SHAPE('','',#5);
 #5 = PRODUCT_DEFINITION('design','',#6,#9);
 #6 = PRODUCT_DEFINITION_FORMATION('','',#7);
-#7 = PRODUCT('x_linear_bearing_spacer001','x_linear_bearing_spacer001',
-  '',(#8));
+#7 = PRODUCT('x_linear_bearing_spacer','x_linear_bearing_spacer','',(#8)
+  );
 #8 = MECHANICAL_CONTEXT('',#2,'mechanical');
 #9 = PRODUCT_DEFINITION_CONTEXT('part definition',#2,'design');
 #10 = ADVANCED_BREP_SHAPE_REPRESENTATION('',(#11,#15),#197);
@@ -33,15 +33,15 @@ DATA;
 #20 = ORIENTED_EDGE('',*,*,#21,.F.);
 #21 = EDGE_CURVE('',#22,#22,#24,.T.);
 #22 = VERTEX_POINT('',#23);
-#23 = CARTESIAN_POINT('',(15.,7.5,21.));
+#23 = CARTESIAN_POINT('',(14.9,7.5,21.));
 #24 = SURFACE_CURVE('',#25,(#30,#42),.PCURVE_S1.);
-#25 = CIRCLE('',#26,7.5);
+#25 = CIRCLE('',#26,7.4);
 #26 = AXIS2_PLACEMENT_3D('',#27,#28,#29);
 #27 = CARTESIAN_POINT('',(7.5,7.5,21.));
 #28 = DIRECTION('',(0.E+000,0.E+000,1.));
 #29 = DIRECTION('',(1.,0.E+000,0.E+000));
 #30 = PCURVE('',#31,#36);
-#31 = CYLINDRICAL_SURFACE('',#32,7.5);
+#31 = CYLINDRICAL_SURFACE('',#32,7.4);
 #32 = AXIS2_PLACEMENT_3D('',#33,#34,#35);
 #33 = CARTESIAN_POINT('',(7.5,7.5,0.E+000));
 #34 = DIRECTION('',(0.E+000,0.E+000,1.));
@@ -61,7 +61,7 @@ PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
 #46 = DIRECTION('',(0.E+000,0.E+000,1.));
 #47 = DIRECTION('',(1.,0.E+000,0.E+000));
 #48 = DEFINITIONAL_REPRESENTATION('',(#49),#53);
-#49 = CIRCLE('',#50,7.5);
+#49 = CIRCLE('',#50,7.4);
 #50 = AXIS2_PLACEMENT_2D('',#51,#52);
 #51 = CARTESIAN_POINT('',(0.E+000,0.E+000));
 #52 = DIRECTION('',(1.,0.E+000));
@@ -71,10 +71,10 @@ PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
 #54 = ORIENTED_EDGE('',*,*,#55,.F.);
 #55 = EDGE_CURVE('',#56,#22,#58,.T.);
 #56 = VERTEX_POINT('',#57);
-#57 = CARTESIAN_POINT('',(15.,7.5,0.E+000));
+#57 = CARTESIAN_POINT('',(14.9,7.5,0.E+000));
 #58 = SEAM_CURVE('',#59,(#63,#70),.PCURVE_S1.);
 #59 = LINE('',#60,#61);
-#60 = CARTESIAN_POINT('',(15.,7.5,0.E+000));
+#60 = CARTESIAN_POINT('',(14.9,7.5,0.E+000));
 #61 = VECTOR('',#62,1.);
 #62 = DIRECTION('',(0.E+000,0.E+000,1.));
 #63 = PCURVE('',#31,#64);
@@ -98,7 +98,7 @@ PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
 #77 = ORIENTED_EDGE('',*,*,#78,.T.);
 #78 = EDGE_CURVE('',#56,#56,#79,.T.);
 #79 = SURFACE_CURVE('',#80,(#85,#92),.PCURVE_S1.);
-#80 = CIRCLE('',#81,7.5);
+#80 = CIRCLE('',#81,7.4);
 #81 = AXIS2_PLACEMENT_3D('',#82,#83,#84);
 #82 = CARTESIAN_POINT('',(7.5,7.5,0.E+000));
 #83 = DIRECTION('',(0.E+000,0.E+000,1.));
@@ -119,7 +119,7 @@ PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
 #96 = DIRECTION('',(0.E+000,0.E+000,1.));
 #97 = DIRECTION('',(1.,0.E+000,0.E+000));
 #98 = DEFINITIONAL_REPRESENTATION('',(#99),#103);
-#99 = CIRCLE('',#100,7.5);
+#99 = CIRCLE('',#100,7.4);
 #100 = AXIS2_PLACEMENT_2D('',#101,#102);
 #101 = CARTESIAN_POINT('',(0.E+000,0.E+000));
 #102 = DIRECTION('',(1.,0.E+000));
